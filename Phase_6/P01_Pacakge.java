@@ -3,6 +3,8 @@ import College.Student;
 public class P01_Pacakge {
     public static void main(String[] args){
         Student.show();
+        // Student s = new Student();
+        // s.show();
     }
 }
 
@@ -35,3 +37,17 @@ public class P01_Pacakge {
 // Package solve the problems:-
 // 1.) Same class names
 // 2.) organization
+
+// Basic order is :- 
+// package
+//    ↓
+// import
+//    ↓
+// class
+
+// If we dont want to use import then 
+// College.Student s = new College.Student(); like this 
+
+// import java.util.*; this means import the accessible classes directly inside java.util
+// so we can use things like 
+// Scanner, Random; but does not mean all classes
