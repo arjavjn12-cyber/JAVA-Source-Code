@@ -1,0 +1,35 @@
+Let source code 
+int a = 5;
+int b = 10;
+int c = a + b;
+
+Bytecode may look like
+iconst_5
+istore_1
+
+bipush 10
+istore_2
+
+iload_1
+iload_2
+
+iadd
+
+istore_3
+
+Why not let JVM read JAVA source directly?
+Let suppose JVM read .java files directly.
+Every time you run directly then it would be slower.
+
+#Push 5
+#Store in a
+
+#Push 10
+#Store in b
+
+#Load a
+#Load b
+
+# ADD
+
+#Store in c

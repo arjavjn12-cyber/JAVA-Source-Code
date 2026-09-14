@@ -1,0 +1,16 @@
+JVM works heavily using something called a: Stack
+
+Think:
+Stack
+---------
+|       |
+---------
+|       |
+---------
+|       |
+---------
+Last item inserted comes out first.
+Like a stack of plates 🍽️.
+
+For now, just remember:
+Bytecode often pushes values onto a stack and then performs operations.

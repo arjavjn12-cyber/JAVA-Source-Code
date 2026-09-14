@@ -1,0 +1,29 @@
+Java Virtual Machine (JVM)
+It is the engine. Executor
+
+.class file
+     ↓
+    JVM
+     ↓
+Program Runs
+Without JVM no execution.
+
+JVM DOES NOT WRITE CODE.
+JVM DOES NOT COMPILE CODE.
+JVM DOES NOT CREATE BYTECODE.
+
+E.G.
+hello.class 
+this file runs directly by JVM
+But 
+if file is like hello.java
+then JVM would not be able to run it.
+Because JVM only understand bytecode
+
+JVM verifies:
+illegal instructions
+corrupted bytecode
+dangerous operations
+
+Only after verification:
+Execution starts

@@ -1,0 +1,13 @@
+JVM
+Engine
+
+JRE
+Complete running car
+Contains engine + required parts
+
+JDK
+Car factory
+Can:
+build cars
+test cars
+run cars

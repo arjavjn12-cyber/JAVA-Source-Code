@@ -1,0 +1,45 @@
+public class Hello {
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+}
+
+--> Why do we always write code in java in classes only
+Instead of directly writing that printing statement ?
+Because in java it is not allowed to write code outside of class or we can say that 
+the permission is not granted 
+
+--> THE RULE IS EVERY CODE BELONGS TO A class.
+
+--> THE Name of public class should be same as file name saved {Must Follow Rule}
+
+--> Understanding the meaning of codes
+1.) Line of code [public class Hello]
+    so class means we are defining a class in the program
+    Hello is the name of class we can say variable name 
+    public is basically access modifiers for now it means it is visible everywhere
+
+2.) [ public static void main(String[] args)]
+    JVM always search for this line in the code to execute it.
+    in java main is uses with void Because JVM doesnt need 
+    anything returned from main
+
+    Why main MUST be static
+
+    Think:
+
+    Program start karna hai.
+    Lekin object banane ke liye bhi code execute karna padta hai.
+    Par code execute karne ke liye program start hona chahiye.
+    Infinite chicken-egg problem 🐔🥚
+    Need object to call main
+    Need main to start execution
+    Need execution to create object
+
+    Circular dependency.
+    Solution:
+    static main()
+    JVM directly call kar sakti hai.
+    No object needed.
+
+    The strings[] args means it is only giving the argument like we use to give in brackets for functions 

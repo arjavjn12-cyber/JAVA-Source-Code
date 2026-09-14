@@ -1,0 +1,33 @@
+Just-In-Time Compiler {JIT}
+
+Historically java used:
+interpreter
+which reads:
+one instruction then execute it one by one.
+
+So what it does ki, Compile everything in machine code.
+Which help to run the code fast.
+
+Whole visual flow:
+
+Write Java Code
+       ↓
+   Hello.java
+       ↓
+      javac
+       ↓
+   Hello.class
+       ↓
+   Bytecode
+       ↓
+      JVM
+       ↓
+ Verification
+       ↓
+ Interpreter/JIT
+       ↓
+ Machine Code
+       ↓
+      CPU
+       ↓
+    Output

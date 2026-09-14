@@ -1,0 +1,397 @@
+# JAVA FILES, CLASSES & OBJECTS RULE SHEET
+
+## File Rules
+
+1. Every Java source file must have the extension:
+.java
+Examples:
+text
+Student.java
+Main.java
+Car.java
+
+2. One file can contain multiple classes.
+Example:
+class Student {
+}
+class Car {
+}
+public class Main {
+}
+Valid ✅
+
+3. A file can have at most ONE public class.
+Example:
+public class Student {
+}
+public class Car {
+}
+Invalid ❌
+
+4. If a class is public, the file name must exactly match the class name.
+Example:
+File:
+Student.java
+Code:
+public class Student {
+}
+Valid ✅
+Example:
+Main.java
+Code:
+public class Student {
+}
+Invalid ❌
+
+5. Non-public classes do not need to match the file name.
+Example:
+File:
+Main.java
+
+Code:
+class Student {
+
+}
+Valid ✅
+
+
+## main() Rules
+
+6. The main() method can be written inside any class.
+
+Example:
+
+```java
+class Student {
+
+    public static void main(String[] args) {
+
+    }
+
+}
+```
+
+Valid ✅
+
+---
+
+## Class Rules
+
+7. A class can contain:
+
+* Fields (variables)
+* Constructors
+* Methods
+
+Example:
+
+```java
+class Student {
+
+    int age;
+    String name;
+
+    Student() {
+
+    }
+
+    void display() {
+
+    }
+
+}
+```
+
+Valid ✅
+
+---
+
+8. Methods cannot exist outside a class.
+
+Example:
+
+```java
+class Student {
+
+}
+
+void test() {
+
+}
+```
+
+Invalid ❌
+
+---
+
+9. Two classes with the same name cannot exist in the same package/folder.
+
+Example:
+
+```java
+class Student {
+
+}
+
+class Student {
+
+}
+```
+
+Invalid ❌
+
+---
+
+10. Creating a class does NOT create an object.
+
+Example:
+
+```java
+class Student {
+
+}
+```
+
+Objects created:
+
+```text
+0
+```
+
+---
+
+## Object Rules
+
+11. Object creation requires the new keyword.
+
+Example:
+
+```java
+Student s1 = new Student();
+```
+
+Valid ✅
+
+---
+
+12. A reference variable is NOT an object.
+
+Example:
+
+```java
+Student s1;
+```
+
+Object created:
+
+```text
+NO
+```
+
+Only a reference variable exists.
+
+---
+
+13. A reference variable stores a reference to an object.
+
+Example:
+
+```java
+Student s1 = new Student();
+```
+
+Visualization:
+
+```text
+s1
+ |
+ v
+Student Object
+```
+
+---
+
+14. Multiple references can point to the same object.
+
+Example:
+
+```java
+Student s1 = new Student();
+
+Student s2 = s1;
+```
+
+Objects:
+
+```text
+1
+```
+
+References:
+
+```text
+2
+```
+
+---
+
+## Constructor Rules
+
+15. Constructor name must be exactly the same as the class name.
+
+Example:
+
+```java
+class Student {
+
+    Student() {
+
+    }
+
+}
+```
+
+Valid ✅
+
+---
+
+16. Constructors have NO return type.
+
+Example:
+
+```java
+Student() {
+
+}
+```
+
+Constructor ✅
+
+---
+
+```java
+void Student() {
+
+}
+```
+
+Method ❌
+
+---
+
+17. Constructors run automatically when an object is created.
+
+Example:
+
+```java
+Student s1 = new Student();
+```
+
+Steps:
+
+```text
+Object Created
+↓
+Constructor Executes
+↓
+Reference Returned
+```
+
+---
+
+## Naming Conventions
+
+18. Class names should start with a capital letter.
+
+Examples:
+
+```java
+Student
+Car
+BankAccount
+Employee
+```
+
+Preferred ✅
+
+---
+
+```java
+class student {
+
+}
+```
+
+Compiles, but bad practice ⚠️
+
+---
+
+## Current Learning Setup Example
+
+File:
+
+```text
+P08_objects.java
+```
+
+Correct:
+
+```java
+class Student {
+
+}
+
+public class P08_objects {
+
+}
+```
+
+Valid ✅
+
+---
+
+Wrong:
+
+```java
+public class Student {
+
+}
+
+public class P08_objects {
+
+}
+```
+
+Invalid ❌
+
+Reason:
+
+```text
+Two public classes in one file
+```
+
+---
+
+## Important Definitions
+
+### Class
+
+Blueprint for creating objects.
+
+---
+
+### Object
+
+Instance of a class.
+
+---
+
+### Constructor
+
+Special method that executes automatically during object creation.
+
+---
+
+### Reference Variable
+
+A variable that stores the reference/address of an object.

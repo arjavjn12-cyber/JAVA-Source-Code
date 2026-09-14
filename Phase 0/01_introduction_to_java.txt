@@ -1,0 +1,26 @@
+.java
+   ↓
+javac compiler
+   ↓
+Bytecode (.class)
+   ↓
+JVM
+   ↓
+Machine code
+
+BYTECODE
+Bytecode is a special intermediate code.
+Not fully machine code.
+Not human code.
+Something in between
+
+Then:
+
+JVM (Java Virtual Machine)
+The JVM converts bytecode into actual machine instructions for your system.
+
+So:
+Windows has its own JVM
+Linux has its own JVM
+Mac has its own JVM
+But your .class bytecode stays SAME.

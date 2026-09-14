@@ -1,0 +1,20 @@
+Java Development Kit
+think it is a Developer Package
+
+It contains:
+JRE
+JVM
+javac
+debugger
+documentation tools
+other development utilities
+
+Visual
+JDK
+│
+├── JRE
+│     │
+│     └── JVM
+│
+└── Development Tools
+

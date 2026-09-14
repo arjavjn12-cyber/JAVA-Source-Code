@@ -1,0 +1,14 @@
+Java Runtime Environment(JRE)
+
+Package Required To Run Java Programs means that you dont care 
+about writing java and you only want to run the program 
+
+JRE contains:
+JVM + Required libraries
+
+JRE
+ └── JVM  { Visual }
+
+Why Libraries?
+Because Java programs use built-in classes.
+

@@ -1,0 +1,18 @@
+Imagine You're Building Cars 🚗
+There are three different people:
+
+Person 1
+Only drives cars.
+Doesn't build them.
+Doesn't repair them.
+Just drives.
+
+Person 2
+Builds cars.
+Tests cars.
+Repairs cars.
+Drives them too.
+
+Person 3
+The engine inside the car.
+Actually makes the car move.

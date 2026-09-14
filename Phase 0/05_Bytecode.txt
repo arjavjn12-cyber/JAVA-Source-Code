@@ -1,0 +1,17 @@
+Hello.java
+      ↓
+    javac
+      ↓
+Hello.class
+
+javac is a compiler which converts the .java file into .class(Bytecode) file
+
+
+A .class file can contain:
+
+Bytecode instructions
+Class information
+Method information
+Variable information
+Constant pool data
+Metadata

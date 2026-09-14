@@ -1,0 +1,8 @@
+System.out.println("Hello World");
+
+system is used cuzz it is an inbuilt class in java used for output
+out means standard output stream
+println() means print + new line
+print() means directly print
+
+// for commenting

@@ -1,0 +1,14 @@
+First we made a file Hello.java 
+then in terminal we run the command:
+javac Hello.java
+this will create a class file in the same folder 
+Hello.class
+now after this we run a command to execute the .class in terminal:
+java Hello 
+
+So why we omly write Hello instead of writing whole file.Extension
+Because 
+when we write java Hello 
+JVM internally understands that it has to load the Hello class from the folder
+so it searches for that class in the folder
+then it searches for the main function in the class and then the code finally runs

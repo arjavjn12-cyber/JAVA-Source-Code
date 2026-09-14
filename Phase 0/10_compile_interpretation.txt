@@ -1,0 +1,38 @@
+So JAVA is basically both Compiler and interpreter both language at one Time.
+How this works?
+
+Interpreter
+.class
+    ↓
+ JVM
+    ↓
+Execute
+
+Compiler 
+Hello.java
+      ↓
+javac
+      ↓
+Hello.class
+
+Compilation
+│
+├── Translate whole program
+├── Create machine code
+├── Fast execution
+└── Platform dependent
+
+Interpretation
+│
+├── Translate while running
+├── Execute line by line
+├── More portable
+└── Usually slower
+
+Java
+│
+├── Compilation (javac)
+├── Bytecode
+├── JVM
+├── Interpretation
+└── JIT Compilation
