@@ -1,0 +1,5 @@
+
+
+Hello java
+Welocme to file handling
+This is BufferedWriter

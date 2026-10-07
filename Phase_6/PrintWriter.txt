@@ -1,0 +1,3 @@
+Hello Java
+Welcome to file HandlingThis is PrintWriter
+The age is: 18
